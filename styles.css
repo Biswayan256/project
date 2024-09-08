@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text for contrast */
+}
+/* About Me Section */
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    border-radius: 50%; /* Makes the photo circular */
+    border: 3px solid #ffcc00; /* Yellow border around the photo */
+    margin-bottom: 20px; /* Adds space between the photo and the text */
+}
+
+
+header {
+    background-color: #ffcc00; /* Yellow background */
+    color: #000; /* Black text */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000; /* Black text for navigation links */
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+#projects .gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery-item {
+    flex: 1 1 30%;
+    background-color: #333; /* Dark gray for gallery item background */
+    padding: 10px;
+    border: 1px solid #ffcc00; /* Yellow border */
+    border-radius: 5px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery-item p {
+    margin-top: 10px;
+    color: #ffcc00; /* Yellow text for project titles */
+}
+
+#contact ul.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul.contact-list li {
+    margin: 10px 0;
+}
+
+#contact ul.contact-list li a {
+    text-decoration: none;
+    color: #ffcc00; /* Yellow for contact links */
+}
+
+footer {
+    background-color: #ffcc00; /* Yellow footer */
+    color: #000; /* Black text */
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
